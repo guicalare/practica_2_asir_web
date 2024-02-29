@@ -1,0 +1,100 @@
+@font-face {
+    font-family: breaking_bad_font;
+    src:local("./font/Breaking Bad.ttf");
+}
+
+/*ESTILO MAIN*/
+
+.main_body {
+    height: 100%; 
+    background-size: cover;
+    background-image: url("../img/fondo.jpg");
+    background-repeat: no-repeat;
+    background-position: center;
+    background-attachment: fixed;
+    color: white;
+    font-family: "breaking_bad_font";
+}
+
+.texto_grande {
+    font-size: 14px;
+}
+
+.texto_pequeño {
+    font-size: 10px;
+}
+
+.poster {
+    border: 10px solid brown;
+    border-radius: 22px;
+}
+
+/*ESTILO TABLA PERIODICA*/
+
+.fondo_body_tabla {
+    background-color: #637124;
+    font-family: "Arial, Helvetica, sans-serif";
+}
+
+.altura_casilla_simple { 
+    height: 68px; 
+    width: 73px;
+    text-align: center;
+    border: 2px solid #2B2C24;
+}
+
+.altura_casilla_doble { 
+    height: 146; 
+    width: 73px;
+    text-align: center;
+    border: 2px solid #2B2C24;
+}
+
+.negro_1 {
+    background-color:#2B2C24;
+}
+
+.verde_1 {
+    background-color:#B8DC19;
+}
+.verde_2 {
+    background-color:#D5EA73;
+}
+.verde_3 {
+    background-color:#89A419;
+}
+.verde_4 {
+    background-color:#637124;
+}
+.verde_5 {
+    background-color:#C7E538;
+}
+.verde_6 {
+    background-color:#BCC49E;
+}
+.verde_7 {
+    background-color:#828E50;
+}
+.verde_8 {
+    background-color:#C2C721;
+}
+.verde_9 {
+    background-color:#EFF5CF;
+}
+
+.verde_10 {
+    background-color: #C1C62B;
+}
+
+.morado_1 {
+    background-color:#AB8FCC;
+}
+
+.letra_tabla_periodica {
+    font-size: 32px;
+    font-weight: bold;
+}
+
+.subtexto_tabla_periodica {
+    font-size: 10px;
+}
